@@ -4,3 +4,9 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+
+
+const greenButton = document.querySelector("#theGreen");
+greenButton.addEventListener("click", () => {
+	alert("woohoo!")
+});
